@@ -48,7 +48,7 @@ C1|C2: Constrained variants
 
 Clone this repository next to the IRL2Grid code repository. When using the evaluator to reproduce results, point the checkpoint path to this folder as follows:
 
-      python honest_eval_any.py --ckpt ../IRL2Grid-checkpoints/Final-Results/hpc/runs/bus14_dtpo-full_L16_s100/checkpoint/*.tar --total 80
+      python honest_eval_any.py --ckpt ../IRL2Grid-checkpoints/Final-Results/hpc/runs/bus14_dtpo-full_L16_s100/checkpoint/*.tar --total 80  --eval-pool held
 
 ## Note
 
