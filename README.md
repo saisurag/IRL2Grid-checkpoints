@@ -6,15 +6,15 @@ MSc Advanced Computing, Imperial College London
 
 Supervisor: Dr. Francesco Leofante
 
-With the exception of the original teacher PPO oracles, the original code repository excludes '*.tar' through its '.gitignore', in consideration of storage. Instead, all trained .tar checkpoints are provided in this repository. They can also be downloaded via the following Google Drive link:
+With the exception of the original teacher PPO oracles, the original code repository excludes `*.tar` through its `.gitignore`, in consideration of storage. Instead, all trained .tar checkpoints are provided in this repository. They can also be downloaded via the following Google Drive link:
 
       https://drive.google.com/file/d/1Pb0b8U6JRertQdG9igteh-RTTkOoG417/view?usp=drive_link
 
-Every file is a PyTorch archive written by 'common/checkpoint.py' and read by 'honest_eval_any.py'.
+Every file is a PyTorch archive written by `common/checkpoint.py` and read by `honest_eval_any.py`.
 
 ## Layout
 
-The tree mirrors the code repository; every run occupies the same path in both repositories. In IRL2Grid, the directory holds the logs and visualisations, whereas this repository holds the .tar archive. All contents are available under 'IRL2Grid-checkpoints/'.
+The tree mirrors the code repository; every run occupies the same path in both repositories. In IRL2Grid, the directory holds the logs and visualisations, whereas this repository holds the .tar archive. All contents are available under `IRL2Grid-checkpoints/`.
 
     IRL2Grid-checkpoints/
         checkpoints/    the PPO teachers every reported result distils from
@@ -26,13 +26,13 @@ The tree mirrors the code repository; every run occupies the same path in both r
 
 ## Naming Convention
 
-The 'Final-Results/' directory is named as follows:
+The `Final-Results/` directory is named as follows:
 
       <grid>_<method>_<leaves>_<seed>
 
-Each directory contains 'checkpoint/<name>.tar'. 
+Each directory contains `checkpoint/<name>.tar`. 
 
-The filename is built via 'main.py' as follows:
+The filename is built via `main.py` as follows:
 
      {alg}_{grid}_{T|R}_{seed}_{difficulty}_{H}_{I}_{C1|C2}_{unix time}_{tag}.tar
 
@@ -52,4 +52,4 @@ Clone this repository next to the IRL2Grid code repository. When using the evalu
 
 ## Note
 
-Run data from April to July is kept as a record of the work done. Data within these directories have not been reported or used for the thesis, which reports 'Final-Results/' only.
+Run data from April to July is kept as a record of the work done. Data within these directories have not been reported or used for the thesis, which reports `Final-Results/` only.
