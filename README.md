@@ -1,4 +1,4 @@
-# IRL2Grid-checkpoints
+# Interpretable RL2Grid Checkpoints
 
 Trained model checkpoints for https://github.com/saisurag/IRL2Grid
 
