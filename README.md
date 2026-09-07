@@ -37,8 +37,11 @@ The filename is built via 'main.py' as follows:
      {alg}_{grid}_{T|R}_{seed}_{difficulty}_{H}_{I}_{C1|C2}_{unix time}_{tag}.tar
 
 T|R: Action space, either Topology (T) or Redispatch (R)
+
 H: Heuristic wraps the policy
+
 I: Heuristic is idle
+
 C1|C2: Constrained variants
 
 ## How to use this archive
